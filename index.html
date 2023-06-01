@@ -9,9 +9,10 @@
 <body>
     <h1>Calculadora</h1>
     <form method="post" action="api.php">
-        <input type="number" name="num1">
-        <input type="number" name="num2">
-        <select name="operacion" id="">
+        <input type="number" name="num1" required>
+        <input type="number" name="num2" required>
+        <select name="option" id="">
+            <option>Seleccione una opcion</option>
             <option value="suma">+</option>
             <option value="resta">-</option>
             <option value="multiplicacion">*</option>
